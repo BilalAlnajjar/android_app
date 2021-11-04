@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="293dp"
+        android:layout_gravity="center"
+        android:contentDescription="Edit"
+        tools:srcCompat="@drawable/whatsapp_image_2021_11_02_at_5_30_46_pm" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="229dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="2mm"
+        android:layout_marginBottom="2mm"
+        android:backgroundTint="@color/primary_light"
+        android:fontFamily="@font/secular_one"
+        android:lineSpacingExtra="34sp"
+        android:text="Next"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</FrameLayout>
+
