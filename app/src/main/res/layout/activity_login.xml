@@ -69,6 +69,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="username"
+                android:backgroundTint="@color/primary"
                 android:inputType="textPersonName"
                 android:textAlignment="viewStart" />
 
@@ -77,6 +78,7 @@
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:ems="10"
+                android:backgroundTint="@color/primary"
                 android:hint="password"
                 android:inputType="textPassword" />
 
@@ -101,6 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="You Don't Have An Acount ? "
+                    android:backgroundTint="@color/primary"
                     android:textAlignment="center"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -108,7 +111,7 @@
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
                     android:fontFamily="@font/cairo_bold"
                     android:text="sgin up"
                     android:textColor="@color/primary"

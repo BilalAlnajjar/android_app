@@ -68,6 +68,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="Name"
+                android:backgroundTint="@color/primary"
                 android:inputType="textPersonName"
                 android:textAlignment="viewStart" />
 
@@ -77,6 +78,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="E-mail"
+                android:backgroundTint="@color/primary"
                 android:inputType="textEmailAddress" />
 
             <EditText
@@ -85,6 +87,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="Password"
+                android:backgroundTint="@color/primary"
                 android:inputType="textPassword" />
 
             <EditText
@@ -93,6 +96,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:hint="Re-Password"
+                android:backgroundTint="@color/primary"
                 android:inputType="textPassword" />
 
             <Button
