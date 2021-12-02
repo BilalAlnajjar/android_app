@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/cairo_bold"
+        android:text="BMI Analyzer"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_margin="6dp"
+        android:background="#F8F3F3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cairo_bold"
+                android:text="ُEdit Food Details"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="38sp"
+                app:lineHeight="55sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="19dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Name"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/input_border"
+                    android:bufferType="normal"
+                    android:ems="10"
+                    android:hint=""
+                    android:text="salamon"
+
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="19dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Category"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/input_border"
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="number"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="19dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Calory"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/input_border"
+                    android:ems="10"
+                    android:hint=""
+                    android:text="22"
+                    android:inputType="number" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="cal/g"
+
+                    android:textSize="13sp"
+                    android:textColor="@color/primary"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="19dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Photo"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginVertical="10dp"
+                    android:src="@drawable/food_image"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+
+                    android:backgroundTint="@color/primary"
+                    android:text="Update Phpto"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:backgroundTint="@color/primary"
+                    android:text="Save"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

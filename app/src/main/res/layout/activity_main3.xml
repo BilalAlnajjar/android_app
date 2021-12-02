@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/cairo_bold"
+        android:text="BMI Analyzer"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_margin="6dp"
+        android:background="#F8F3F3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cairo_bold"
+                android:gravity="center_vertical"
+                android:text="Hi,Mohommed"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Current status"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:hint="Normal(StillGood)"
+                    android:background="@drawable/border_edittext"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:gravity="center_vertical"
+                    android:text="Old Status"
+                    android:textColor="@color/primary"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary"
+                    android:paddingHorizontal="30dp"
+                    android:paddingVertical="12dp"
+                    android:orientation="vertical"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="2dp">
+
+                        <TextView
+                            android:layout_width="145dp"
+                            android:layout_height="70dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@drawable/list_left_top"
+                            android:gravity="center"
+                            android:text="20/1/2020"
+                            android:textColor="#000000"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="0dp"
+                            android:background="@drawable/list_right_top"
+                            android:gravity="center"
+                            android:text="60 Kg"
+                            android:textColor="#000000"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="145dp"
+                            android:layout_height="70dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@drawable/list_left_bottom"
+                            android:gravity="center"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="0dp"
+                            android:background="@drawable/list_right_bottom"
+                            android:gravity="center"
+                            android:text="170 Cm"
+                            android:textColor="#000000"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    >
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/primary"
+                        android:text="Add Food"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="60dp"
+                        android:backgroundTint="@color/primary"
+                        android:text="Add Record"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/primary"
+                    android:text="View Food"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingStart="80dp">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
