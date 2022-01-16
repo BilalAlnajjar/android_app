@@ -71,6 +71,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edit_name_food"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -102,6 +103,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edit_category"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -132,6 +134,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edit_calory"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -189,7 +192,7 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/btn_login"
+                    android:id="@+id/btn_edit_photo"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
@@ -199,6 +202,7 @@
                     android:textColor="@color/white" />
 
                 <Button
+                    android:id="@+id/btn_edit_food"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
 

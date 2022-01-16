@@ -71,6 +71,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/record_weight"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -109,6 +110,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/record_length"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -147,6 +149,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/record_date"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -176,6 +179,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/record_time"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -189,7 +193,7 @@
 
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_saveRecord"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"

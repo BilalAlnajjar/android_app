@@ -28,10 +28,10 @@
             android:name=".MainActivity4"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".MainActivityRegister"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".MainActivityLogin"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

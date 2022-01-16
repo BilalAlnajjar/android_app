@@ -16,6 +16,7 @@
 
     <Button
         style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btn_next"
         android:layout_width="229dp"
         android:layout_height="80dp"
         android:layout_gravity="end|bottom"

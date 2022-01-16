@@ -71,6 +71,7 @@
                     android:textStyle="bold" />
 
                 <RadioGroup
+                    android:id="@+id/radio_gender"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
@@ -116,6 +117,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/user_weight"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -155,6 +157,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/user_length"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -193,6 +196,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/user_birth"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:background="@drawable/input_border"
@@ -206,7 +210,7 @@
 
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_saveDataUser"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
